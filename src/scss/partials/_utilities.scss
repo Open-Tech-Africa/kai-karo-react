@@ -1,0 +1,41 @@
+.flex {
+  display: flex;
+  gap: var(--gap, 2rem);
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.outline {
+  outline: 2px solid tomato;
+}
+
+.container {
+  width: min(100% - 2rem, 120rem);
+  margin-inline: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  margin-inline: auto;
+}

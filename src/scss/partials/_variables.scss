@@ -1,0 +1,16 @@
+:root {
+  // responsive fonts
+  --fs-200: clamp(0.8781rem, 0.8401rem + 0.1902vw, 0.9875rem);
+  --fs-300: clamp(0.9375rem, 0.8771rem + 0.3022vw, 1.1113rem);
+  --fs-400: clamp(1rem, 0.913rem + 0.4348vw, 1.25rem);
+  --fs-500: clamp(1.0669rem, 0.9488rem + 0.5902vw, 1.4063rem);
+  --fs-600: clamp(1.1388rem, 0.9846rem + 0.7707vw, 1.5819rem);
+  --fs-700: clamp(1.215rem, 1.0185rem + 0.9826vw, 1.78rem);
+  --fs-800: clamp(1.2963rem, 1.0506rem + 1.2283vw, 2.0025rem);
+  --fs-900: clamp(1.3831rem, 1.0807rem + 1.512vw, 2.2525rem);
+
+  // colors
+  --clr-white: 0 0% 100%;
+  --clr-black: 0 0% 0%;
+  --clr-blue-300: 218 23% 23%;
+}

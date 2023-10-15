@@ -1,0 +1,61 @@
+.header {
+  box-shadow: -1px 7px 5px -2px hsl(var(--clr-black) / 0.15);
+
+  &__logo {
+    --gap: 1rem;
+
+    width: 6rem;
+    will-change: filter;
+    transition: filter 300ms;
+
+    &:hover {
+      filter: drop-shadow(0 0 2em #646cffaa);
+    }
+
+    span {
+      text-wrap: nowrap;
+      font-weight: 600;
+      font-size: var(--fs-500);
+    }
+  }
+
+  &__nav-list,
+  &__nav-list--mobile {
+    list-style-type: none;
+    font-weight: 700;
+    font-size: var(--fs-300);
+  }
+
+  &__nav-list--mobile {
+    --gap: 1.5rem;
+  }
+
+  &__nav--mobile {
+    position: absolute;
+    inset: 0;
+    bottom: -25%;
+
+    img {
+      width: 2rem;
+      height: 2rem;
+
+      filter: invert(75%);
+      cursor: pointer;
+    }
+
+    background: hsl(var(--clr-black));
+    color: hsl(var(--clr-white));
+    padding-block: 1rem;
+  }
+
+  &__icons {
+    --gap: 0.5rem;
+
+    cursor: pointer;
+
+    img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
